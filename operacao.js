@@ -102,7 +102,7 @@ function imposto(){
     }
     else if (valor > 2000 && valor <= 3000){
 
-        taxa = (valor - 2000) *(8/100);
+        taxa = (valor - 2000) * (8/100);
         document.getElementById("renda").innerHTML = "Resultado: Imposto " + taxa.toFixed(2);
     }
     else if (valor > 3000 && valor <= 4500){
